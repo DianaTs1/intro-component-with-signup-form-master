@@ -18,12 +18,25 @@ I changed the design and colors a little bit. I feel like background images that
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img width="1267" alt="Screen Shot 2021-09-22 at 12 07 22 AM" src="https://user-images.githubusercontent.com/73934231/134284307-f455d416-8769-4d35-a72d-2e44f1911c12.png">
+
+<img width="1264" alt="Screen Shot 2021-09-22 at 12 08 17 AM" src="https://user-images.githubusercontent.com/73934231/134284505-3774a53d-fcd1-4dc5-86df-f7cb30dd2fba.png">
+
+<img width="1270" alt="Screen Shot 2021-09-22 at 12 08 46 AM" src="https://user-images.githubusercontent.com/73934231/134284522-c1583d33-c492-44c8-a0bd-41428a982706.png">
+
+
+<img width="1268" alt="Screen Shot 2021-09-22 at 12 08 58 AM" src="https://user-images.githubusercontent.com/73934231/134284540-ce8dfda1-54ed-43f6-bbfa-f6486cc670a4.png">
+
+<img width="325" alt="Screen Shot 2021-09-22 at 12 35 51 AM" src="https://user-images.githubusercontent.com/73934231/134284550-f775d18e-b33e-4e8e-b129-e3d49f4a6e79.png">
+
+<img width="633" alt="Screen Shot 2021-09-22 at 12 36 23 AM" src="https://user-images.githubusercontent.com/73934231/134284560-e1bfec95-aca4-4df6-9258-eb0daec6df1e.png">
+
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/DianaTs1/intro-component-with-signup-form-master
+- Live Site URL: https://dianats1.github.io/intro-component-with-signup-form-master/
 
 ### Built with
 
@@ -40,18 +53,20 @@ I practices working with hooks such as useEffect, useState and useReducer. Also 
 
 ```html
 <input
-					className={`${!passwordState.isValid &&
-					passwordState.passwordIsTouched
-						? classes.invalid
-						: classes.input}`}
-					onChange={passwordChangeHandler}
-					onBlur={validatePassword}
-					type="password"
-					placeholder="Password"
-					id="password"
-					name="password"
-				/>
+	className={`${!passwordState.isValid &&
+	passwordState.passwordIsTouched
+		? classes.invalid
+		: classes.input}`}
+	onChange={passwordChangeHandler}
+	onBlur={validatePassword}
+	type="password"
+	placeholder="Password"
+	id="password"
+	name="password"
+/>
 ```
+
+
 ```js
 const emailReducer = (state, action) => {
 	switch (action.type) {
@@ -73,7 +88,8 @@ const emailReducer = (state, action) => {
 };
 ```
 
-I am kinda proud to be able to change the responsiveness with just this piece of media query thank to Mobile first workflow.
+
+I have been able to change the responsiveness with just this piece of media query thank to Mobile first workflow.
 
 ``` CSS
 @media screen and (min-width: 1140px) {
