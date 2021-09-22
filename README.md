@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Note
 
-I changed the design and colors a little bit. I feel like background images that are so repetitive overdates.
+I changed the design and colors a little bit. I feel like background images that are so eye catching and repetitive overdate.
 
 ### Screenshot
 
