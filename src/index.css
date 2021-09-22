@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root {
+	--Red: hsl(0, 100%, 74%);
+	--Green: hsl(154, 59%, 51%);
+
+	--Purple: hsl(248, 32%, 49%);
+	--Dark-purple: hsl(249, 10%, 26%);
+	--Grayish-blue: hsl(246, 25%, 77%);
+}
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
